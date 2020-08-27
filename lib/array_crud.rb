@@ -35,7 +35,7 @@ def retrieve_first_element_from_array(array)
   array.first
 end
 
-def retrieve_last_element_from_array("arrays!")
+def retrieve_last_element_from_array(arrays!)
   #array[-1]
   #array.last
 end
