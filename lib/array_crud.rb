@@ -1,3 +1,5 @@
+require 'pry'
+
 def create_an_empty_array
   []
 end
@@ -17,7 +19,8 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-
+  item = array.pop
+  binding.pry
 end
 
 def remove_element_from_start_of_array(array)
